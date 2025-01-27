@@ -1,0 +1,129 @@
+table {
+  width: 100%;
+  margin-bottom: 10px;
+  border-collapse: collapse;
+  margin-left: 20px;
+  background: white;
+  
+  
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+th:nth-child(2), td:nth-child(2) {
+  width: 60%; /* You can adjust this value as needed */
+}
+
+/* New Container for Add Row Button */
+.add-row-container {
+  width: 80%; /* Make it the same width as the table */
+  margin: 10px auto; /* Center the button horizontally and give some margin */
+  text-align: center; /* Optional: Centers the button inside its container */
+  margin-left: 540px;
+}
+
+.add-row {
+  padding: 10px;
+  background: black;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  display: inline-block; /* Keeps button aligned with container */
+}
+
+/* 🔹 Multi-Select Dropdown Container */
+.multi-select-container {
+  width: 200%;
+  
+  position: relative;
+}
+
+/* 🔹 Dropdown Styles (to match UI) */
+.multi-select-container .css-1pahdxg-control {
+  border: 1px solid #ccc !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+/* 🔹 Selected Items (Tags) */
+.multi-select-container .css-12jo7m5 {
+  background-color: #e0e0e0 !important;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.option-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  background-color: white;
+  transition: background-color 0.3s ease-in-out;
+  position: relative;
+}
+
+.checkbox.checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.checkbox .icon {
+  display: none;
+  color: white;
+  font-size: 10px;
+}
+
+.checkbox.checked .icon {
+  display: block;
+}
+
+/* 🔹 Add New Option Input + Button */
+.add-option-container {
+  display: flex;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.add-option-container input {
+  flex: 1;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-option-container button {
+  background: black;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically if needed */
+  height: 40vh;
+  margin-top: 10vh;
+}
+
+.app h2 {
+  text-align: center; /* Centers the text inside h2 */
+}
