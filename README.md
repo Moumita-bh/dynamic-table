@@ -4,8 +4,7 @@
 1. Create a new React project using Vite or Create React App:
    ```sh
    npx create-react-app dynamic-table
-   # OR
-   npm create vite@latest dynamic-table --template react
+   
    ```
 2. Navigate to the project directory and install dependencies:
    ```sh
